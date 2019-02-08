@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Khareedo Becho </title>
+	<link rel="stylesheet" type="css" href="ecommerce.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<!-- Home Page -->
+	<div id="homePage">
+		<table>
+			<!-- Search Bar -->
+			<tr id="searchBar">
+				<input class="InputBar"id="searchBarBoxInput" type="text" name="" placeholder="Search for products here" size="50%"/>
+
+				<button class="ClickableInput" id="loginAndSignupInputBox" type="" name="Login&Signup" onclick="goToLoginPopUp()"  >Login & SignUp</button>  
+				<!-- add function to go to login popup -->
+
+				<button class="ClickableInput" id="myCartInputBox" type="button" name="Cart" onclick="goToMyCart()" >My Cart</button>  
+				<!-- add function to go to my cart -->
+
+			</tr><br>
+			
+
+			<!-- Menu Bar -->
+			<tr>
+					<!-- Electronics -->
+					Electronics<input class="HoverButton" id="electronicsMenuButton" type="button" onclick="showElectronicMenu()" placeholder="Electronics" />
+					<!-- add a function to show electronlics menu --> 
+
+					<!-- Sports Books and More -->
+					SportsBooks&More<input class="HoverButton" id="sportBooksAndMoreMenuButton" type="button" name="" placeholder="Sports Books and More" onclick="showSportsBooksAndMoreMenu()" />
+					<!-- add a function to show sports books and more menu -->
+
+			</tr><br>
+
+			<!-- Featured Products Pane (Moving ads) -->
+
+			<tr class="adBox" id="adProductBox">
+				<div class="GridDispaly">
+				<img src="Electronics1.jpg" style=" width: 50%; height:25% ">
+				<img src="Electronics2.jpg" width="50%" height="25%">
+				<img src="Electronics3.jpg" width="50%" height="25%">
+				</div>
+			</tr>
+
+		</table>
+	</div>
+
+	<div id="productListPage">
+		
+	</div>
+
+	<div id="loginPopUp">
+		
+	</div>
+
+	<div id="signInPopUp">
+		
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "npm-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node-dev  server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "errorhandler": "1.5.0",
+    "express": "^4.16.4",
+    "mocha": "^5.2.0",
+    "mongodb": "^3.1.12"
+  }
+}

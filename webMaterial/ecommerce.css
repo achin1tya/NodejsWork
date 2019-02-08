@@ -1,0 +1,10 @@
+*{
+	box-sizing: border-box;
+}
+
+tr {
+	margin: 25px 25px 25px 25px;
+	padding: 25px 25px 25px 25px;
+	border: 25px solid blue;	
+}
+

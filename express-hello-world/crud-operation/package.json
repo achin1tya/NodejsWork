@@ -1,0 +1,16 @@
+{
+  "name": "crud-operation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "introToCrudinNode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-dev introToCrudinNode.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.16.4"
+  }
+}

@@ -1,0 +1,52 @@
+body{
+	background-color: black;
+}
+
+h1{
+	color:white;
+	text-align: center;
+}
+
+p{
+	font-family: serif,sans-serif;
+	font-size: 100%;
+}
+
+#mainPage{
+	display: ;
+	padding: 25px 25px 25px 25px;
+	margin: 25px 25px 25px 25px;
+ 	border-style:solid;  
+ 	border-color: purple;
+ 	border-radius: 30px
+}
+
+#welcomePage{
+	
+	padding: 25px 25px 25px 25px;
+	margin: 25px 25px 25px 25px;
+ 	border-style:solid;  
+ 	border-color: red;
+ 	border-radius: 30px
+
+}
+
+#login{
+	
+	padding: 25px 25px 25px 25px;
+	margin: 25px 25px 25px 25px;
+ 	border-style:solid;  
+ 	border-color: red;
+ 	border-radius: 30px
+
+}
+#signUpPage{
+	
+	padding: 25px 25px 25px 25px;
+	margin: 25px 25px 25px 25px;
+ 	border-style:solid;  
+ 	border-color: red;
+ 	border-radius: 30px
+
+}
+
